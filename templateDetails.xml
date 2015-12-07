@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.4//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.4" type="template" client="site">
+    <name>template-joomla</name>
+    <creationDate>6 décembre 2015</creationDate>
+    <author>Maxence Delattre</author>
+    <authorEmail>maxence.delattre@etd-solutions.com</authorEmail>
+    <authorUrl>http://etd-solutions.com</authorUrl>
+    <copyright>Copyright (C) 2015 ETD Solutions. All rights reserved.</copyright>
+    <license>Public</license>
+    <version>1.0.0</version>
+    <description>Template de démarrage pour Joomla</description>
+
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+        <folder>less</folder>
+        <folder>vendor</folder>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+    </files>
+
+    <positions>
+        <position>navigation</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
