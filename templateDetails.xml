@@ -17,7 +17,6 @@
         <folder>img</folder>
         <folder>js</folder>
         <folder>less</folder>
-        <folder>vendor</folder>
         <filename>index.php</filename>
         <filename>templateDetails.xml</filename>
         <filename>component.php</filename>
