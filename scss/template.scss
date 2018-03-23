@@ -1,9 +1,9 @@
-/*!
- * @package      Template pour BNI Saint-Omer
+/**
+ * @package      Template Joomla pour le site web de la piscine de Lumbres
  *
- * @version      1.0
- * @copyright    Copyright (C) 2015 ETD Solutions. Tous droits réservés.
- * @license      Propriétaire
+ * @version      0.1.0
+ * @copyright    Copyright (C) 2018 ETD Solutions. All rights reserved.
+ * @license      Apache-2.0
  * @author       ETD Solutions http://www.etd-solutions.com
 **/
 
@@ -15,9 +15,10 @@
 // --------------------------
 @import "bootstrap";
 
-// Font Awesome
+// Fonts
 // --------------------------
-@import "../vendor/fortawesome/font-awesome/less/font-awesome";
+@import "fonts";
+//@import "fontawesome";
 
 // Variables
 // --------------------------
@@ -27,14 +28,14 @@
 // --------------------------
 @import "bootstrap-theme";
 
+// Error
+// --------------------------
+@import "error";
+
+// Offline
+// --------------------------
+@import "offline";
+
 // Base
 // --------------------------
 @import "base";
-
-// Components
-// --------------------------
-@import "components/com_content";
-
-// Modules
-// --------------------------
-@import "modules/mod_menu";

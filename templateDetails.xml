@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE install PUBLIC "-//Joomla! 3.4//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
-<extension version="3.4" type="template" client="site">
+<extension version="3.8" type="template" method="upgrade" client="site">
     <name>template-joomla</name>
-    <creationDate>6 décembre 2015</creationDate>
-    <author>Maxence Delattre</author>
-    <authorEmail>maxence.delattre@etd-solutions.com</authorEmail>
+    <creationDate>March 2018</creationDate>
+    <author>ETD Solutions</author>
+    <authorEmail>contact@etd-solutions.com</authorEmail>
     <authorUrl>http://etd-solutions.com</authorUrl>
-    <copyright>Copyright (C) 2015 ETD Solutions. All rights reserved.</copyright>
-    <license>Public</license>
+    <copyright>Copyright (C) 2018 ETD Solutions. All rights reserved.</copyright>
+    <license>Apache-2.0</license>
     <version>1.0.0</version>
-    <description>Template de démarrage pour Joomla</description>
+    <description>Template Joomla pour le site web de ###ENTREPRISE###</description>
 
     <files>
         <folder>css</folder>
         <folder>html</folder>
         <folder>img</folder>
         <folder>js</folder>
-        <folder>less</folder>
+        <folder>scss</folder>
         <filename>index.php</filename>
         <filename>templateDetails.xml</filename>
         <filename>component.php</filename>
-        <filename>composer.json</filename>
+        <filename>package.json</filename>
         <filename>error.php</filename>
+        <filename>offline.php</filename>
     </files>
 
     <positions>
@@ -32,7 +32,7 @@
 
     <config>
         <fields name="params">
-            <fieldset name="advanced">
+            <fieldset name="basic">
 
             </fieldset>
         </fields>

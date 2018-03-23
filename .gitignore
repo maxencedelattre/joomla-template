@@ -11,9 +11,8 @@
 # Only apply this rule to the main repository's gitignore files
 !/.gitignore
 
-# Composer
-composer.phar
-composer
-vendor/
+# Yarn
+node_modules
 
-css/template.css
+# FA
+fonts/

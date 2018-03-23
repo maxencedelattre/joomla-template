@@ -1,0 +1,21 @@
+//
+// Styles de base
+// ---------------------------------------
+
+// Antialiasing
+// ---------------------------------------
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#etdsolutions {
+  display: inline-block;
+  height: 40px;
+  padding: 8px 50px 8px 0;
+  background-image: url('../img/etd-solutions.png');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: contain;
+}
